@@ -5,7 +5,7 @@ export default class Iframe extends React.Component {
   render() {
     return (
       <div>
-        <iframe className='iframe' src={this.props.src} />
+        <iframe title="ONG Teto" className='iframe' src={this.props.src} />
       </div>
     )
   }

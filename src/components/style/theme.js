@@ -1,7 +1,7 @@
 export const theme = {
     background: '#ffffff',
     fontFamily: 'Roboto',
-    headerBgColor: '#005792',
+    headerBgColor: '#1E81B8',
     headerFontColor: '#edf9fc',
     headerFontSize: '18px',
     botBubbleColor: '#F2F2F2',
@@ -9,7 +9,7 @@ export const theme = {
     userBubbleColor: '#EFF2FB',
     userFontColor: '#005792',
 };
-  
+
 export const avatarStyle = {
     borderRadius: "50%"
 }

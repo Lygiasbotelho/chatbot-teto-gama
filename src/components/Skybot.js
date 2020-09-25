@@ -4,7 +4,7 @@ import ChatBot from 'react-simple-chatbot';
 import { ThemeProvider } from 'styled-components';
 import BuscaMensagens from './BuscaMensagens';
 import {theme, avatarStyle, bubbleOptionStyle, bubbleStyle, rootStyle, contentStyle, footerStyle, inputStyle, submitButtonStyle} from './style/theme'
-import imageBot from '../../src/skycoders.png'
+import imageBot from '../../src/imgchat.png'
 
 export default class Skybot extends React.Component {
 
@@ -39,6 +39,7 @@ export default class Skybot extends React.Component {
                     recognitionLang="pt-br"
                     recognitionPlaceholder="Estou ouvindo ..."
                     botAvatar={imageBot}
+                    floatingIcon={imageBot}
                     hideUserAvatar={true}
                     bubbleOptionStyle={bubbleOptionStyle}
                     bubbleStyle={bubbleStyle}
